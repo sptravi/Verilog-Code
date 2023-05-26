@@ -1,4 +1,4 @@
-Verilog Module:
+//Verilog Module:
 /*""" module fulladder ( input [3:0] a, input [3:0] b, input c_in, output c_out, output [3:0] sum );
 // Declare the module's inputs and outputs
 // Inputs: // - a: A 4-bit input signal a // - b: A 4-bit input signal b // - c_in: A single-bit input carry signal
@@ -6,7 +6,7 @@ Verilog Module:
 // Full adder logic assign {c_out, sum} = a + b + c_in;
 endmodule """*/
 
-
+/*
 Module Name: Full Adder
 Purpose        : The purpose of this module is to implement a full adder circuit. 
                  It takes two 4-bit input signals, a and b, along with a single-bit input carry signal, c_in. 
@@ -23,10 +23,8 @@ c_in: A single-bit input carry signal.
 
 Outputs:
 c_out: A single-bit output carry signal representing the carry output.
-sum: A 4-bit output signal representing the sum of the inputs.
+sum: A 4-bit output signal representing the sum of the inputs.  */
 
-Example:
-less
 // Instantiate the full adder module
 fulladder my_adder (
   .a(input_a),
